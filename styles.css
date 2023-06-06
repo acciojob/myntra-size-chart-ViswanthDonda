@@ -7,8 +7,9 @@ thead{
     background-color: #C41E3A;
 }
 
-table th td{
+table, th, td{
     border: 1px solid black;
+	  border-collapse: collapse;
     
 }
 
@@ -20,4 +21,5 @@ th{
 td{
     text-align: end;
 }
+
 /* Your CSS Code here. */
