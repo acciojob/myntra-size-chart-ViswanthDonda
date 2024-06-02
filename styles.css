@@ -1,25 +1,44 @@
-
-table{
+table {
     width: 700px;
 }
 
-thead{
+thead {
     background-color: #C41E3A;
 }
 
-table, th, td{
+table, th, td {
     border: 1px solid black;
-	  border-collapse: collapse;
-    
+    border-collapse: collapse;
 }
 
-
-th{
+th {
     text-align: left;
 }
 
-td{
+td {
     text-align: end;
 }
 
-/* Your CSS Code here. */
+/* Specific row colors */
+.waist-row th,
+.waist-row td {
+    background-color: #EFA1A8;
+    opacity: 0.8;
+}
+
+.chest-row th,
+.chest-row td {
+    background-color: #DAC6C6;
+    opacity: 0.8;
+}
+
+.sleeve-row th,
+.sleeve-row td {
+    background-color: #D3D3D3;
+    opacity: 0.8;
+}
+
+/* Optional: Reset opacity on hover for better readability */
+tbody tr:hover {
+    opacity: 1;
+}
